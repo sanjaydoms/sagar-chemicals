@@ -109,9 +109,9 @@ export const Products = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { title: "I know the product", desc: "Search directly by chemical or trade name.", icon: Beaker },
-            { title: "I know the application", desc: "Start with the industry or process requirement.", icon: Factory },
-            { title: "I need technical assistance", desc: "Tell us your requirement and our team can help identify suitable products.", icon: PackageSearch }
+            { title: "I Know the Product", desc: "Search directly by chemical or trade name.", icon: Beaker },
+            { title: "I Know the Application", desc: "Start with the industry or process requirement.", icon: Factory },
+            { title: "I Need Technical Assistance", desc: "Tell us your requirement and our team can help identify suitable products.", icon: PackageSearch }
           ].map((item, i) => (
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -368,7 +368,7 @@ export const Products = () => {
             </div>
             <textarea rows={4} placeholder="Requirement (Tell us about your application or specification)" className="w-full px-6 py-4 bg-background border border-primary/10 rounded-xl focus:outline-none focus:border-accent font-sans resize-none" />
             <div className="text-center">
-              <button type="button" className="px-10 py-4 bg-primary text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-accent transition-colors flex items-center gap-3 mx-auto group">
+              <button type="button" className="px-8 py-4 bg-primary text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors flex items-center gap-3 mx-auto group">
                 Send Product Enquiry <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
@@ -393,11 +393,11 @@ export const Products = () => {
                 search?.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 search?.focus({ preventScroll: true });
               }}
-              className="w-full sm:w-auto px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white hover:text-primary transition-colors"
+              className="w-full sm:w-auto px-8 py-4 bg-accent text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-white hover:text-primary transition-colors"
             >
               Find a Product
             </button>
-            <Link to="/contact" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white/20 transition-colors">
+            <Link to="/contact" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-white/20 transition-colors">
               Talk to Our Team
             </Link>
           </div>

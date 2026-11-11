@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export const Sustainability = () => {
   return (
-    <div className="pt-[110px] min-h-screen bg-background">
+    <div className="pt-[90px] min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center justify-center bg-primary overflow-hidden py-24">
         <div className="absolute inset-0 z-0">
@@ -35,7 +35,7 @@ export const Sustainability = () => {
       {/* Four Principles */}
       <section className="py-32 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <p className="font-mono text-sm tracking-[0.2em] text-accent uppercase font-bold mb-4">Four Principles</p>
+          <p className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">Four Principles</p>
           <h2 className="font-serif text-4xl text-primary">Our Core Values</h2>
         </div>
         
@@ -81,8 +81,8 @@ export const Sustainability = () => {
       <section className="py-24 bg-primary text-white text-center px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl md:text-5xl leading-tight">
-            Sustainability is not a statement.<br />
-            <span className="text-sky-300 italic">It is a responsibility carried through the way we work.</span>
+            Sustainability Is Not a Statement.<br />
+            <span className="text-sky-300 italic">It Is a Responsibility Carried Through the Way We Work.</span>
           </h2>
         </div>
       </section>

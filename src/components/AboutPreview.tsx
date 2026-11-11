@@ -58,11 +58,11 @@ export const AboutPreview = () => {
 
   return (
     <section ref={container} className="bg-[#F5F8FC] relative h-[350vh] md:h-[400vh]">
-      <div className="sticky top-0 h-screen flex flex-col justify-center px-6 sm:px-8 md:px-16 overflow-hidden max-w-[1400px] mx-auto pt-20 sm:pt-24 pb-6 sm:pb-10">
+      <div className="sticky top-0 h-screen flex flex-col justify-center px-6 sm:px-8 md:px-16 overflow-hidden max-w-site mx-auto pt-20 sm:pt-24 pb-6 sm:pb-10">
         
         {/* Main Section Heading */}
         <div className="w-full mb-4 sm:mb-6 lg:mb-10 shrink-0">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary leading-[1.05] uppercase tracking-tight">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary leading-[1.05] tracking-tight">
             A Legacy of <br />
             Precision.
           </h2>

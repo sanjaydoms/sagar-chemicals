@@ -41,7 +41,7 @@ export const Footer = () => {
     <footer className="relative bg-white text-primary overflow-hidden flex flex-col w-full border-t border-primary/10">
       
       {/* Top Content (Links & Logo) */}
-      <div className="relative z-20 pt-16 md:pt-24 px-6 sm:px-8 md:px-16 lg:px-24 flex flex-col lg:flex-row justify-between gap-12 lg:gap-16 w-full max-w-[1600px] mx-auto">
+      <div className="relative z-20 pt-16 md:pt-24 px-6 sm:px-8 md:px-16 flex flex-col lg:flex-row justify-between gap-12 lg:gap-16 w-full max-w-site mx-auto">
         {/* Logo */}
         <div className="lg:w-1/4 flex flex-col items-start pt-2">
           <img 

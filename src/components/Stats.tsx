@@ -54,7 +54,7 @@ export const Stats = () => {
   return (
     <section ref={container} className="bg-white py-16 sm:py-24 md:py-36 px-6 sm:px-8 md:px-16 border-y border-primary/5 shadow-sm relative z-10 overflow-hidden">
       <ChemicalBackground showMolecules={false} />
-      <div className="relative z-10 grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 max-w-7xl mx-auto">
+      <div className="relative z-10 grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 max-w-[1400px] mx-auto">
         {stats.map((stat, idx) => (
           <motion.div 
             key={idx} 

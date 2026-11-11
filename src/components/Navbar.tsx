@@ -98,7 +98,7 @@ export const Navbar = () => {
           isScrolled ? 'h-[72px] shadow-sm' : 'h-[90px]'
         )}
       >
-        <div className="max-w-[1600px] mx-auto px-6 md:px-12 h-full flex items-center justify-between">
+        <div className="max-w-site mx-auto px-6 sm:px-8 md:px-16 h-full flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img

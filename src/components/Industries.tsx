@@ -8,42 +8,42 @@ export const Industries = () => {
   const industries = [
     {
       id: '01',
-      title: 'OIL & LUBRICANTS',
+      title: 'Oil & Lubricants',
       desc: 'High-performance emulsifiers, anti-wear additives, corrosion inhibitors, and extreme-pressure chemistry engineered for modern lubricants.',
       image: '/images/performance_additives.jpg',
       href: '/industries/oil-lubricants'
     },
     {
       id: '02',
-      title: 'ELECTRONICS & SEMICONDUCTOR',
+      title: 'Electronics & Semiconductor',
       desc: 'Ultra-high-purity reagents supporting micro-etching, photoresist stripping, precision cleaning, and semiconductor fabrication.',
       image: '/images/electronics.jpg',
       href: '/industries/electronics'
     },
     {
       id: '03',
-      title: 'TEXTILE & LEATHER',
+      title: 'Textile & Leather',
       desc: 'Specialized wetting agents, antifoams, optical brighteners, flame retardants, and finishing auxiliaries for textile and leather processing.',
       image: '/images/laboratory_glassware.jpg',
       href: '/industries/textile-leather'
     },
     {
       id: '04',
-      title: 'PLASTIC & POLYMER',
+      title: 'Plastic & Polymer',
       desc: 'Performance plasticizers, flame retardants, stabilizers, and pigment dispersions tailored for advanced polymer compounding.',
       image: '/images/chemical_plant.jpg',
       href: '/industries/plastic-polymer'
     },
     {
       id: '05',
-      title: 'METAL EXTRACTION',
+      title: 'Metal Extraction',
       desc: 'Selective solvent-extraction reagents and organophosphorus extractants designed for rare earth and hydrometallurgical recovery.',
       image: '/images/performance_additives.jpg',
       href: '/industries/metal-extraction'
     },
     {
       id: '06',
-      title: 'SURFACE TREATMENT',
+      title: 'Surface Treatment',
       desc: 'Inorganic salts and precision surface preparation chemistry engineered for automotive, aerospace, and industrial finishing.',
       image: '/images/laboratory_glassware.jpg',
       href: '/industries/surface-treatment'
@@ -97,7 +97,7 @@ export const Industries = () => {
       </div>
 
       {/* Foreground Content */}
-      <div className="relative z-20 w-full max-w-[1440px] mx-auto px-6 sm:px-8 md:px-16 flex flex-col lg:flex-row items-start lg:items-end justify-between gap-10 lg:gap-12">
+      <div className="relative z-20 w-full max-w-site mx-auto px-6 sm:px-8 md:px-16 flex flex-col lg:flex-row items-start lg:items-end justify-between gap-10 lg:gap-12">
         
         {/* Left: Heading + Auto-Switching Industry List */}
         <div className="w-full lg:w-7/12 flex flex-col justify-center">
@@ -105,7 +105,7 @@ export const Industries = () => {
             INDUSTRIES WE SERVE
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[1.06] max-w-xl tracking-tight mb-8 sm:mb-10">
-            WHERE CHEMISTRY<br />MEETS INDUSTRY.
+            Where Chemistry<br />Meets Industry.
           </h2>
           
           <div className="flex flex-col space-y-3 sm:space-y-3.5 pl-1">
@@ -124,8 +124,8 @@ export const Industries = () => {
                   <div className="flex flex-col">
                     <span
                       className={clsx(
-                        "font-sans text-base sm:text-xl md:text-2xl lg:text-3xl uppercase tracking-wide transition-colors duration-500",
-                        isActive ? "text-white font-medium" : "text-white/90 font-light"
+                        "font-serif text-base sm:text-xl md:text-2xl lg:text-3xl tracking-tight transition-colors duration-500",
+                        isActive ? "text-white font-semibold" : "text-white/90 font-normal"
                       )}
                     >
                       {ind.title}

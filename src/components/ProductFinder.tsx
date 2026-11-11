@@ -22,9 +22,9 @@ export const ProductFinder = () => {
       <ChemicalBackground />
       <div className="relative z-10 w-full flex flex-col justify-center">
         
-        <div className="px-6 sm:px-8 md:px-16 w-full max-w-[1400px] mx-auto mb-12 sm:mb-16 md:mb-24">
+        <div className="px-6 sm:px-8 md:px-16 w-full max-w-site mx-auto mb-12 sm:mb-16 md:mb-24">
           <h2 className="font-serif text-3xl sm:text-5xl md:text-7xl text-primary leading-none tracking-tight">
-            FIND THE RIGHT<br />CHEMISTRY.
+            Find the Right<br />Chemistry.
           </h2>
 
           <div className="relative mt-10 sm:mt-14 md:mt-16 max-w-2xl group">

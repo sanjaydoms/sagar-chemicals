@@ -38,7 +38,7 @@ export const IndustryLayout: React.FC<IndustryLayoutProps> = ({
   relatedProducts
 }) => {
   return (
-    <div className="pt-[110px] min-h-screen bg-background">
+    <div className="pt-[90px] min-h-screen bg-background">
       
       {/* Hero Section */}
       <section className="relative min-h-[60vh] py-20 flex items-center justify-center bg-primary overflow-hidden">
@@ -71,10 +71,10 @@ export const IndustryLayout: React.FC<IndustryLayoutProps> = ({
             transition={{ delay: 0.2 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-6"
           >
-            <Link to="/products" className="w-full sm:w-auto px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white hover:text-primary transition-colors flex items-center justify-center gap-3 group">
+            <Link to="/products" className="w-full sm:w-auto px-8 py-4 bg-accent text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-white hover:text-primary transition-colors flex items-center justify-center gap-3 group">
               Explore Products <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link to="/contact" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white/20 transition-colors">
+            <Link to="/contact" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-white/20 transition-colors">
               Discuss Your Requirement
             </Link>
           </motion.div>
@@ -226,7 +226,7 @@ export const IndustryLayout: React.FC<IndustryLayoutProps> = ({
         <div className="max-w-3xl mx-auto">
           <h2 className="font-serif text-4xl mb-6">{ctaTitle}</h2>
           <p className="font-sans text-lg text-white/70 mb-10">{ctaText}</p>
-          <Link to="/contact" className="inline-flex items-center gap-3 px-10 py-5 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white hover:text-primary transition-colors group">
+          <Link to="/contact" className="inline-flex items-center gap-3 px-8 py-4 bg-accent text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-white hover:text-primary transition-colors group">
             Discuss Your Requirement <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

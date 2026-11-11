@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Quality = () => {
   return (
-    <div className="pt-[110px] min-h-screen bg-background">
+    <div className="pt-[90px] min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center justify-center bg-primary overflow-hidden py-24">
         <div className="absolute inset-0 z-0">
@@ -57,8 +57,8 @@ export const Quality = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <p className="font-mono text-sm tracking-[0.2em] text-accent uppercase font-bold mb-4">Quality & Documentation</p>
-          <h2 className="font-serif text-4xl text-primary">Our approach brings together:</h2>
+          <p className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">Quality & Documentation</p>
+          <h2 className="font-serif text-4xl text-primary">Our Approach Brings Together:</h2>
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
@@ -99,8 +99,8 @@ export const Quality = () => {
 
       {/* CTA */}
       <section className="py-24 bg-background border-t border-primary/10 text-center px-6">
-        <h2 className="font-serif text-4xl text-primary mb-8">Looking for a specification-based chemical solution?</h2>
-        <Link to="/contact" className="inline-flex items-center px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-primary transition-colors gap-3 group">
+        <h2 className="font-serif text-4xl text-primary mb-8">Looking for a Specification-Based Chemical Solution?</h2>
+        <Link to="/contact" className="inline-flex items-center px-8 py-4 bg-accent text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-primary transition-colors gap-3 group">
           Talk to our technical team <span className="transform group-hover:translate-x-1 transition-transform">&rarr;</span>
         </Link>
       </section>

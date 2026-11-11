@@ -6,7 +6,7 @@ import clsx from 'clsx';
 export const AboutUs = () => {
   const [activeCard, setActiveCard] = useState<'vision' | 'mission'>('vision');
   return (
-    <main className="pt-[82px] min-h-screen bg-background text-primary">
+    <main className="pt-[90px] min-h-screen bg-background text-primary">
       {/* SECTION 01 - HERO */}
       <section className="relative min-h-[70vh] md:min-h-[85vh] flex flex-col items-center justify-center px-8 md:px-16 overflow-hidden">
         
@@ -29,8 +29,8 @@ export const AboutUs = () => {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             className="flex flex-col items-center"
           >
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-[8rem] xl:text-[9rem] leading-[0.9] tracking-tighter uppercase mb-12 text-white drop-shadow-2xl">
-              50+ YEARS OF<br />CHEMICAL<br />EXPERTISE.
+            <h1 className="font-serif text-5xl md:text-7xl lg:text-[8rem] xl:text-[9rem] leading-[0.9] tracking-tighter mb-12 text-white drop-shadow-2xl">
+              50+ Years of<br />Chemical<br />Expertise.
             </h1>
             <div className="flex items-center justify-center gap-6">
               <div className="w-12 h-[2px] bg-sky-300"></div>
@@ -46,7 +46,7 @@ export const AboutUs = () => {
       {/* SECTION 02 - OUR STORY (Horizontal Timeline) */}
       <section className="py-32 px-8 md:px-16 border-t border-secondary/10 bg-primary/5">
         <div className="max-w-[1400px] mx-auto">
-          <h2 className="font-sans text-xl md:text-2xl font-light tracking-wide uppercase mb-24 opacity-60">
+          <h2 className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-24">
             Our Story
           </h2>
           
@@ -98,7 +98,7 @@ export const AboutUs = () => {
         <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row gap-24">
           <div className="w-full md:w-1/3">
             <h2 className="font-serif text-5xl md:text-7xl leading-[1.1] tracking-tight sticky top-32">
-              What changed<br />over<br /><span className="text-accent italic">50 years?</span>
+              What Changed<br />Over<br /><span className="text-accent italic">50 Years?</span>
             </h2>
           </div>
           
@@ -121,7 +121,7 @@ export const AboutUs = () => {
                   className="flex flex-col group"
                 >
                   <div className="py-12 border-b border-primary/10 transition-colors duration-500 group-hover:border-accent">
-                    <h3 className="font-sans text-4xl md:text-6xl font-light tracking-wide group-hover:translate-x-4 transition-transform duration-500">
+                    <h3 className="font-serif text-4xl md:text-6xl font-medium tracking-tight group-hover:translate-x-4 transition-transform duration-500">
                       {item}
                     </h3>
                   </div>
@@ -150,7 +150,7 @@ export const AboutUs = () => {
                 CORPORATE DIRECTION
               </span>
               <h2 className="font-serif text-3xl sm:text-5xl md:text-6xl text-primary tracking-tight leading-[1.06]">
-                GUIDED BY PURPOSE.<br />DRIVEN BY PRECISION.
+                Guided by Purpose.<br />Driven by Precision.
               </h2>
             </div>
             <p className="font-sans text-sm sm:text-base text-primary/75 max-w-md leading-relaxed">
@@ -165,7 +165,7 @@ export const AboutUs = () => {
                 key: 'vision' as const,
                 id: '01',
                 tag: 'STRATEGIC HORIZON',
-                label: 'OUR VISION',
+                label: 'Our Vision',
                 icon: Eye,
                 headline:
                   'To become a globally recognized name in speciality chemicals, driven by technical expertise, innovation and an ever-expanding reach.',
@@ -177,7 +177,7 @@ export const AboutUs = () => {
                 key: 'mission' as const,
                 id: '02',
                 tag: 'OPERATIONAL COMMITMENT',
-                label: 'OUR MISSION',
+                label: 'Our Mission',
                 icon: Target,
                 headline:
                   'To be a reliable chemistry partner, delivering the right products, expertise and solutions across multiple industries.',
@@ -252,7 +252,7 @@ export const AboutUs = () => {
                             </span>
                             <h3
                               className={clsx(
-                                'font-serif text-xl sm:text-2xl font-bold tracking-tight mt-0.5 transition-colors duration-500',
+                                'font-serif text-xl sm:text-2xl tracking-tight mt-0.5 transition-colors duration-500',
                                 isDark ? 'text-white' : 'text-primary'
                               )}
                             >
@@ -346,7 +346,7 @@ export const AboutUs = () => {
       {/* SECTION 04 - LEADERSHIP */}
       <section className="py-32 px-8 md:px-16 bg-primary text-background">
         <div className="max-w-[1400px] mx-auto">
-          <h2 className="font-sans text-xl md:text-2xl font-light tracking-wide uppercase mb-24 opacity-60">
+          <h2 className="inline-block px-4 py-1.5 rounded-full bg-white/15 border border-white/25 font-mono text-xs tracking-[0.2em] text-white font-semibold uppercase mb-24">
             Management Team
           </h2>
           

@@ -36,7 +36,7 @@ export const Quality = () => {
       style={{ backgroundColor, color: textColor }}
       className="relative z-10 py-20 sm:py-28 md:py-44 px-6 sm:px-8 md:px-16 overflow-hidden transition-colors duration-1000"
     >
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 sm:gap-16 lg:gap-32">
+      <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-12 sm:gap-16 lg:gap-32">
         
         {/* Left Column */}
         <div className="w-full lg:w-1/2 flex flex-col justify-between">
@@ -48,7 +48,7 @@ export const Quality = () => {
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight"
               >
-                QUALITY
+                Quality
               </motion.h2>
             </div>
             <div className="overflow-hidden mb-2">
@@ -58,7 +58,7 @@ export const Quality = () => {
                 transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
                 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight"
               >
-                IS BUILT
+                Is Built
               </motion.h2>
             </div>
             <div className="overflow-hidden">
@@ -68,7 +68,7 @@ export const Quality = () => {
                 transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
                 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight"
               >
-                IN.
+                In.
               </motion.h2>
             </div>
           </div>

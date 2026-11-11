@@ -13,7 +13,7 @@ export const Hero = () => {
       id: '01',
       tag: 'PRECISION SYNTHESIS',
       titlePrimary: 'Chemistry',
-      titleSecondary: 'with purpose.',
+      titleSecondary: 'with Purpose.',
       description:
         'Speciality chemical solutions, performance additives and technical expertise for demanding industrial applications worldwide.',
       videoUrl:
@@ -25,7 +25,7 @@ export const Hero = () => {
       id: '02',
       tag: 'ANALYTICAL R&D',
       titlePrimary: 'Formulated for',
-      titleSecondary: 'performance.',
+      titleSecondary: 'Performance.',
       description:
         'Advanced molecular screening, rigorous quality documentation, and custom additive blending engineered to customer specifications.',
       videoUrl:
@@ -37,7 +37,7 @@ export const Hero = () => {
       id: '03',
       tag: 'PROCESS REACTION',
       titlePrimary: 'Transforming',
-      titleSecondary: 'industrial processes.',
+      titleSecondary: 'Industrial Processes.',
       description:
         'Extreme-pressure additives, anti-wear agents, and speciality catalysts optimizing manufacturing yield and operational uptime.',
       videoUrl:
@@ -49,7 +49,7 @@ export const Hero = () => {
       id: '04',
       tag: 'QUALITY ASSURANCE',
       titlePrimary: 'Consistency in',
-      titleSecondary: 'every batch.',
+      titleSecondary: 'Every Batch.',
       description:
         'Trace-metal limit testing, pilot trials, and international standard compliance (COA, SDS, REACH) across multi-hub distribution.',
       videoUrl:
@@ -61,7 +61,7 @@ export const Hero = () => {
       id: '05',
       tag: 'GLOBAL INFRASTRUCTURE',
       titlePrimary: 'Scale without',
-      titleSecondary: 'boundaries.',
+      titleSecondary: 'Boundaries.',
       description:
         'Connecting international supply chains with dedicated hubs in India, the UAE, and Brazil serving 700+ industrial leaders.',
       videoUrl:
@@ -132,7 +132,7 @@ export const Hero = () => {
       </div>
 
       {/* Main Foreground Content */}
-      <div className="relative z-30 w-full max-w-[1440px] mx-auto px-6 sm:px-8 md:px-16 pt-32 pb-12 sm:pb-16 md:pb-20">
+      <div className="relative z-30 w-full max-w-site mx-auto px-6 sm:px-8 md:px-16 pt-32 pb-12 sm:pb-16 md:pb-20">
         
         {/* Dynamic Titles */}
         <div className="min-h-[140px] sm:min-h-[200px] md:min-h-[250px] flex flex-col justify-end">

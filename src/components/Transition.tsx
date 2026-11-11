@@ -25,8 +25,8 @@ export const Transition = () => {
         </motion.div>
         
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
-           <h2 className="font-sans text-2xl sm:text-3xl md:text-5xl text-background font-light tracking-wide text-center">
-             CONNECTING <br/> THE WORLD'S <br/> INDUSTRIES
+           <h2 className="font-serif text-2xl sm:text-3xl md:text-5xl text-background tracking-tight text-center">
+             Connecting <br/> the World's <br/> Industries
            </h2>
         </div>
 

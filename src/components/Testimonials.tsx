@@ -63,7 +63,7 @@ export const Testimonials = () => {
     <section className="relative bg-[#F5F8FC] py-20 sm:py-28 md:py-36 px-6 sm:px-8 md:px-16 border-y border-primary/5 overflow-hidden">
       <ChemicalBackground variant="tinted" />
 
-      <div className="relative z-10 max-w-[1320px] mx-auto">
+      <div className="relative z-10 max-w-[1400px] mx-auto">
         
         {/* Refined Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
@@ -72,7 +72,7 @@ export const Testimonials = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
               Customer Testimonials
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-primary tracking-tight leading-[1.1]">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-primary tracking-tight leading-[1.1]">
               Trusted by Global Industry Leaders
             </h2>
           </div>

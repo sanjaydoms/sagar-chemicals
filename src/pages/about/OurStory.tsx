@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export const OurStory = () => {
   return (
-    <div className="pt-[110px] min-h-screen bg-background">
+    <div className="pt-[90px] min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center bg-primary overflow-hidden py-24">
         <div className="absolute inset-0 z-0">
@@ -41,7 +41,7 @@ export const OurStory = () => {
           viewport={{ once: true }}
           className="w-full md:w-1/2"
         >
-          <p className="font-mono text-sm tracking-[0.2em] text-accent uppercase font-bold mb-4">Where It Began</p>
+          <p className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">Where It Began</p>
           <h2 className="font-serif text-4xl text-primary mb-6">1974 — The Beginning</h2>
           <div className="space-y-6 font-sans text-primary/70 leading-relaxed text-lg">
             <p>
@@ -75,7 +75,7 @@ export const OurStory = () => {
             viewport={{ once: true }}
             className="w-full md:w-1/2"
           >
-            <p className="font-mono text-sm tracking-[0.2em] text-accent uppercase font-bold mb-4">A New Chapter</p>
+            <p className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">A New Chapter</p>
             <h2 className="font-serif text-4xl text-primary mb-6 leading-tight">1999 — Sagar Speciality Chemicals Private Limited</h2>
             <div className="space-y-6 font-sans text-primary/70 leading-relaxed text-lg">
               <p>
@@ -108,7 +108,7 @@ export const OurStory = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <p className="font-mono text-sm tracking-[0.2em] text-accent uppercase font-bold mb-4">Today</p>
+          <p className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">Today</p>
           <h2 className="font-serif text-5xl text-primary mb-12">From Products to Solutions</h2>
           <p className="font-sans text-xl text-primary/80 leading-relaxed mb-16 max-w-3xl mx-auto">
             Today, Sagar operates across a multi-brand product portfolio and supports customers through:
@@ -133,8 +133,8 @@ export const OurStory = () => {
       <section className="py-32 bg-primary text-white text-center px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-4xl md:text-6xl mb-8 leading-tight">
-            The chemistry changes.<br />
-            <span className="text-sky-300 italic">The commitment remains.</span>
+            The Chemistry Changes.<br />
+            <span className="text-sky-300 italic">The Commitment Remains.</span>
           </h2>
           <p className="font-sans text-xl text-white/70">
             50+ years of experience continue to shape how Sagar approaches products, partnerships and industrial requirements.

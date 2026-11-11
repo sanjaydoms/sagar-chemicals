@@ -19,7 +19,7 @@ export const Customization = () => {
     {
       id: '01',
       phase: 'DISCOVERY',
-      title: 'YOUR REQUIREMENT',
+      title: 'Your Requirement',
       desc: 'We start by analyzing your target application, operating environment, regulatory constraints, and performance benchmarks.',
       deliverable: 'Requirement Brief & Spec Sheet',
       icon: FileSearch,
@@ -28,7 +28,7 @@ export const Customization = () => {
     {
       id: '02',
       phase: 'CONSULTATION',
-      title: 'TECHNICAL DISCUSSION',
+      title: 'Technical Discussion',
       desc: 'Our application chemists and process specialists collaborate with your team to evaluate chemical compatibility and process parameters.',
       deliverable: 'Technical Feasibility Review',
       icon: MessagesSquare,
@@ -37,7 +37,7 @@ export const Customization = () => {
     {
       id: '03',
       phase: 'SCREENING',
-      title: 'PRODUCT SELECTION',
+      title: 'Product Selection',
       desc: 'We identify optimal molecules, intermediates, or performance additives from our portfolio matching your exact functional needs.',
       deliverable: 'Candidate Chemistry Shortlist',
       icon: FlaskConical,
@@ -46,7 +46,7 @@ export const Customization = () => {
     {
       id: '04',
       phase: 'FORMULATION',
-      title: 'CUSTOMIZATION',
+      title: 'Customization',
       desc: 'Tailor-made synthesis, grade adjustment, or custom blending to fine-tune purity, viscosity, pH, or thermal stability.',
       deliverable: 'Custom Lab Sample & Formulation',
       icon: Sliders,
@@ -55,7 +55,7 @@ export const Customization = () => {
     {
       id: '05',
       phase: 'QUALITY LAB',
-      title: 'VALIDATION',
+      title: 'Validation',
       desc: 'Rigorous analytical testing, pilot trials, and full documentation (COA, SDS, REACH compliance) to verify batch consistency.',
       deliverable: 'Validated COA & Trial Approval',
       icon: ShieldCheck,
@@ -64,7 +64,7 @@ export const Customization = () => {
     {
       id: '06',
       phase: 'LOGISTICS',
-      title: 'SUPPLY',
+      title: 'Supply',
       desc: 'Seamless scale-up to commercial volumes with reliable global dispatch across our hubs in India, UAE, and Brazil.',
       deliverable: 'Scheduled Global Delivery',
       icon: Truck,
@@ -73,21 +73,21 @@ export const Customization = () => {
   ];
 
   return (
-    <section className="bg-white py-20 sm:py-28 md:py-36 px-5 sm:px-8 md:px-16 relative overflow-hidden">
+    <section className="bg-white py-20 sm:py-28 md:py-36 px-6 sm:px-8 md:px-16 relative overflow-hidden">
       <ChemicalBackground />
-      <div className="relative z-10 max-w-[1160px] mx-auto">
+      <div className="relative z-10 max-w-[1400px] mx-auto">
         
         {/* Top Header */}
         <div className="mb-14 sm:mb-20">
           {/* Top Pill Badge */}
-          <span className="inline-block px-5 py-2 rounded-full bg-primary/10 font-sans text-xs font-semibold text-primary mb-6">
+          <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-6">
             How We Work
           </span>
 
           <h2 className="font-serif text-3xl sm:text-5xl md:text-6xl text-primary tracking-tight leading-[1.08] mb-6 sm:mb-10">
-            FROM REQUIREMENT
+            From Requirement
             <br />
-            TO SOLUTION.
+            to Solution.
           </h2>
 
           {/* Subtitle + Right Stepped Stage Blocks */}

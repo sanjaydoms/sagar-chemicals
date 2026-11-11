@@ -3,7 +3,7 @@ import { MapPin, Phone, Upload, ArrowRight } from 'lucide-react';
 
 export const Contact = () => {
   return (
-    <div className="pt-[110px] min-h-screen bg-background">
+    <div className="pt-[90px] min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative min-h-[40vh] flex items-center justify-center bg-primary overflow-hidden py-16">
         <div className="absolute inset-0 z-0">
@@ -51,7 +51,7 @@ export const Contact = () => {
             className="bg-white p-8 md:p-12 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-primary/5"
           >
             <div className="mb-10">
-              <span className="font-mono text-xs tracking-[0.2em] text-accent uppercase font-bold mb-4 block">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">
                 Start a Conversation
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-primary mb-4">Tell Us About Your Requirement</h2>
@@ -138,7 +138,7 @@ export const Contact = () => {
               <div className="pt-6">
                 <button 
                   type="button"
-                  className="w-full md:w-auto px-8 py-4 bg-primary text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-accent transition-colors flex items-center justify-center gap-3 group"
+                  className="w-full md:w-auto px-8 py-4 bg-primary text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors flex items-center justify-center gap-3 group"
                 >
                   Send Enquiry <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                 </button>
@@ -159,7 +159,7 @@ export const Contact = () => {
             className="sticky top-32"
           >
             <div className="mb-10">
-              <span className="font-mono text-xs tracking-[0.2em] text-accent uppercase font-bold mb-4 block">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 font-mono text-xs tracking-[0.2em] text-primary font-semibold uppercase mb-4">
                 Our Locations
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-primary mb-4">Connect With Sagar</h2>
@@ -172,7 +172,7 @@ export const Contact = () => {
               {/* India Head Office */}
               <div className="bg-white p-6 rounded-2xl border border-primary/5 hover:border-accent/30 transition-colors">
                 <h3 className="font-serif text-xl text-primary mb-1 flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-accent" /> INDIA
+                  <MapPin className="w-4 h-4 text-accent" /> India
                 </h3>
                 <p className="font-mono text-xs text-primary/50 tracking-widest uppercase mb-4">Head Office</p>
                 <div className="font-sans text-primary/70 text-sm space-y-1 mb-4">
@@ -194,7 +194,7 @@ export const Contact = () => {
               {/* India Plant */}
               <div className="bg-white p-6 rounded-2xl border border-primary/5 hover:border-accent/30 transition-colors">
                 <h3 className="font-serif text-xl text-primary mb-1 flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-accent" /> INDIA
+                  <MapPin className="w-4 h-4 text-accent" /> India
                 </h3>
                 <p className="font-mono text-xs text-primary/50 tracking-widest uppercase mb-4">Plant</p>
                 <div className="font-sans text-primary/70 text-sm space-y-1 mb-4">
@@ -213,7 +213,7 @@ export const Contact = () => {
               {/* Brazil */}
               <div className="bg-white p-6 rounded-2xl border border-primary/5 hover:border-accent/30 transition-colors">
                 <h3 className="font-serif text-xl text-primary mb-1 flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-accent" /> BRAZIL
+                  <MapPin className="w-4 h-4 text-accent" /> Brazil
                 </h3>
                 <p className="font-mono text-xs text-primary/50 tracking-widest uppercase mb-4">Correspondence Office</p>
                 <div className="font-sans text-primary/70 text-sm space-y-1 mb-4">

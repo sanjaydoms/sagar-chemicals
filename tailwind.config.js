@@ -13,6 +13,9 @@ export default {
         accent: '#0077B6',     // High-contrast industrial ocean blue
         secondary: '#475569',  // Readable slate gray
       },
+      maxWidth: {
+        site: '1528px', // 1400px content + 64px side padding: shared page grid
+      },
       fontFamily: {
         sans: ['"DM Sans"', 'system-ui', '-apple-system', 'sans-serif'],
         serif: ['"Outfit"', '"DM Sans"', 'sans-serif'],

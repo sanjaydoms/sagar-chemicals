@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Solutions = () => {
   return (
-    <div className="pt-[110px] min-h-screen bg-background">
+    <div className="pt-[90px] min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center bg-primary overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -53,7 +53,7 @@ export const Solutions = () => {
                 <p className="font-sans text-base text-primary/70 leading-relaxed mb-8">
                   {item.desc}
                 </p>
-                <Link to="/contact" className="inline-block px-8 py-3 bg-primary text-background font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors">
+                <Link to="/contact" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors">
                   Learn More
                 </Link>
               </div>

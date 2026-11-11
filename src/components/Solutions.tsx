@@ -12,7 +12,7 @@ export const Solutions = () => {
     {
       id: '01',
       tag: 'FORMULATION SCIENCE',
-      title: 'PERFORMANCE ADDITIVES',
+      title: 'Performance Additives',
       desc: 'Specialized chemical formulations that enhance the durability, performance, and operational efficiency of demanding industrial systems.',
       href: '/solutions',
       icon: Sparkles,
@@ -20,7 +20,7 @@ export const Solutions = () => {
     {
       id: '02',
       tag: 'BESPOKE CHEMISTRY',
-      title: 'CUSTOMIZED SOLUTIONS',
+      title: 'Customized Solutions',
       desc: 'Tailor-made chemical synthesis and formulation engineered around specific client manufacturing parameters and regulatory requirements.',
       href: '/solutions',
       icon: Wrench,
@@ -28,7 +28,7 @@ export const Solutions = () => {
     {
       id: '03',
       tag: 'GLOBAL LOGISTICS',
-      title: 'SUPPLY CHAIN',
+      title: 'Supply Chain',
       desc: 'Robust global logistics and multi-hub inventory management ensuring uninterrupted delivery of critical raw materials worldwide.',
       href: '/solutions',
       icon: Globe2,
@@ -36,7 +36,7 @@ export const Solutions = () => {
     {
       id: '04',
       tag: 'PROCESS ADVISORY',
-      title: 'TECHNICAL SUPPORT',
+      title: 'Technical Support',
       desc: 'On-site technical evaluation, comprehensive quality documentation (COA/SDS), and continuous process optimization support.',
       href: '/solutions',
       icon: ShieldCheck,
@@ -54,7 +54,7 @@ export const Solutions = () => {
             INTERACTIVE CAPABILITIES
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl md:text-6xl text-primary tracking-tight leading-[1.08] mb-5">
-            MORE THAN A CHEMICAL SUPPLIER.
+            More Than a Chemical Supplier.
           </h2>
           <p className="font-sans text-sm sm:text-base text-primary/75 leading-relaxed">
             Delivering end-to-end chemical excellence—from custom formulation and performance enhancement to dependable global logistics and on-site technical support.
@@ -102,7 +102,7 @@ export const Solutions = () => {
                     {/* Title */}
                     <h3
                       className={clsx(
-                        "font-serif text-2xl sm:text-[26px] font-medium leading-[1.2] tracking-tight mb-4 transition-colors duration-500",
+                        "font-serif text-2xl sm:text-[26px] leading-[1.2] tracking-tight mb-4 transition-colors duration-500",
                         isDark ? "text-white" : "text-primary"
                       )}
                     >

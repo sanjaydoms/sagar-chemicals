@@ -24,7 +24,7 @@ export const CTA = () => {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             className="font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-primary leading-[0.95] tracking-tight"
           >
-            HAVE A CHEMICAL
+            Have a Chemical
           </motion.h2>
         </div>
         <div className="overflow-hidden">
@@ -34,7 +34,7 @@ export const CTA = () => {
             transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-primary leading-[0.95] tracking-tight"
           >
-            REQUIREMENT?
+            Requirement?
           </motion.h2>
         </div>
       </div>
