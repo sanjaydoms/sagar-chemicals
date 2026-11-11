@@ -22,7 +22,7 @@ export const AboutPreview = () => {
       id: '02',
       year: '1999',
       title: 'A NEW CHAPTER',
-      desc: 'Expanding our technical capabilities and manufacturing footprints.',
+      desc: 'Expanding our technical capabilities and manufacturing footprint.',
       img: '/images/performance_additives.jpg'
     },
     {

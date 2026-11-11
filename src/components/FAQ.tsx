@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 import clsx from 'clsx';
@@ -31,7 +31,7 @@ export const FAQ = () => {
   ];
 
   return (
-    <section className="relative py-20 sm:py-28 md:py-32 px-5 sm:px-8 md:px-12 bg-white overflow-hidden">
+    <section id="faq" className="relative py-20 sm:py-28 md:py-32 px-5 sm:px-8 md:px-12 bg-white overflow-hidden scroll-mt-24">
       <ChemicalBackground />
       <div className="relative z-10 max-w-4xl mx-auto">
         <motion.div

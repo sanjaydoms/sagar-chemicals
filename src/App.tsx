@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Lenis from 'lenis';
 import { Preloader } from './components/Preloader';
@@ -16,6 +16,7 @@ import { OurStory } from './pages/about/OurStory';
 import { Quality } from './pages/about/Quality';
 import { Sustainability } from './pages/about/Sustainability';
 import { Contact } from './pages/Contact';
+import { NotFound } from './pages/NotFound';
 
 // Industries
 import { Oil } from './pages/industries/Oil';
@@ -83,6 +84,7 @@ function App() {
             <Route path="/resources" element={<Products />} />
             <Route path="/partner" element={<Contact />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </div>

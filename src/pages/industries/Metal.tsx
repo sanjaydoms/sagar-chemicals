@@ -1,4 +1,3 @@
-import React from 'react';
 import { IndustryLayout } from '../../components/IndustryLayout';
 
 export const Metal = () => {

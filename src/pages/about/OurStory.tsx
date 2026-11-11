@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 export const OurStory = () => {
@@ -80,7 +79,7 @@ export const OurStory = () => {
             <h2 className="font-serif text-4xl text-primary mb-6 leading-tight">1999 — Sagar Speciality Chemicals Private Limited</h2>
             <div className="space-y-6 font-sans text-primary/70 leading-relaxed text-lg">
               <p>
-                In 1999, the company was converted into a Private Limited organisation under the leadership of Ravindra L. Sampat.
+                In 1999, the company was converted into a Private Limited organization under the leadership of Ravindra L. Sampat.
               </p>
               <p>
                 The next chapter expanded Sagar's capabilities across raw materials, commodities, performance additives, catalysts, customization and supply-chain management.

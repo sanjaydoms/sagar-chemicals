@@ -39,7 +39,7 @@ export const Hero = () => {
       titlePrimary: 'Transforming',
       titleSecondary: 'industrial processes.',
       description:
-        'Extreme-pressure additives, anti-wear agents, and specialty catalysts optimizing manufacturing yield and operational uptime.',
+        'Extreme-pressure additives, anti-wear agents, and speciality catalysts optimizing manufacturing yield and operational uptime.',
       videoUrl:
         'https://cdn.coverr.co/videos/coverr-mixing-chemicals-in-a-beaker-5762/1080p.mp4',
       posterImage:
@@ -47,7 +47,7 @@ export const Hero = () => {
     },
     {
       id: '04',
-      tag: 'QUALITY & ASSURANCE',
+      tag: 'QUALITY ASSURANCE',
       titlePrimary: 'Consistency in',
       titleSecondary: 'every batch.',
       description:

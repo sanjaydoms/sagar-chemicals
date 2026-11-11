@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Search, ArrowRight, Beaker, Factory, PackageSearch, FileText, Settings, Truck } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -16,7 +15,7 @@ const categories = [
   { name: 'Hydrobromic Acid', desc: 'Hydrobromic acid and related chemical requirements.' },
   { name: 'Initiators', desc: 'Materials used to initiate chemical and polymerization processes.' },
   { name: 'Inorganic Phosphites', desc: 'Phosphite-based inorganic chemistry for industrial applications.' },
-  { name: 'Nitrates & Metabisulfites', desc: 'Inorganic chemical materials for process and formulation requirements.' },
+  { name: 'Nitrates & Metabisulphites', desc: 'Inorganic chemical materials for process and formulation requirements.' },
   { name: 'Persulphates', desc: 'Persulphate-based oxidizing materials.' },
   { name: 'Phosphate Esters & Flame Retardants', desc: 'Performance chemicals supporting flame-retardancy and other formulation requirements.' },
   { name: 'Phosphonic & Related Chemistry', desc: 'Phosphonic and related speciality chemistry for industrial processes.' },
@@ -32,14 +31,14 @@ const categories = [
 
 const featuredProducts = [
   '1,2,3-Benzotriazole',
-  '1-Fluoro Naphthalene',
+  '1-Fluoronaphthalene',
   '2-Ethylhexyl Diphenyl Phosphate',
   '2-Ethylhexyl Glucoside',
   'PBTC 50%',
-  '5-Nitro Salicylic Acid',
-  'Ammonium Persulphates',
+  '5-Nitrosalicylic Acid',
+  'Ammonium Persulphate',
   'Antifoam — Modified Siloxane',
-  'Antifoam — Phosphate Ester Based',
+  'Antifoam — Phosphate-Ester-Based',
   'Ascorbic Acid'
 ];
 
@@ -48,11 +47,11 @@ export const Products = () => {
     <div className="pt-[90px] min-h-screen bg-background">
       
       {/* 01. HERO */}
-      <section className="relative h-[60vh] flex items-center justify-center bg-primary overflow-hidden">
+      <section className="relative min-h-[60vh] py-20 flex items-center justify-center bg-primary overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="/images/performance_additives.jpg"
-            alt="Products Hero" 
+            alt="Speciality chemical products" 
             className="w-full h-full object-cover opacity-20 mix-blend-overlay"
           />
         </div>
@@ -89,9 +88,10 @@ export const Products = () => {
           <div className="absolute left-10 top-1/2 -translate-y-1/2 text-primary/50">
             <Search className="w-6 h-6" />
           </div>
-          <input 
-            type="text" 
-            placeholder="Search chemical name, trade name or application..." 
+          <input
+            id="product-search"
+            type="text"
+            placeholder="Search chemical name, trade name or application..."
             className="w-full pl-16 pr-32 py-5 bg-white rounded-full font-sans text-lg text-primary focus:outline-none focus:ring-4 ring-accent/30 shadow-2xl transition-all"
           />
           <button className="absolute right-8 top-1/2 -translate-y-1/2 px-6 py-3 bg-primary text-white rounded-full font-mono text-xs uppercase tracking-widest hover:bg-accent transition-colors flex items-center gap-2 group">
@@ -142,7 +142,7 @@ export const Products = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {categories.map((cat, i) => (
+            {categories.map((cat) => (
               <motion.div 
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -165,9 +165,9 @@ export const Products = () => {
             <h2 className="font-serif text-4xl text-primary mb-4">Selected Chemistry</h2>
             <p className="font-sans text-lg text-primary/70">A selection of products from our speciality chemical portfolio.</p>
           </div>
-          <button className="px-6 py-3 border border-primary/20 rounded-full font-mono text-xs uppercase tracking-widest hover:bg-primary hover:text-white transition-colors">
-            View Complete Catalogue &rarr;
-          </button>
+          <Link to="/contact" className="px-6 py-3 border border-primary/20 rounded-full font-mono text-xs uppercase tracking-widest hover:bg-primary hover:text-white transition-colors">
+            Request Complete Catalogue &rarr;
+          </Link>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
@@ -196,7 +196,7 @@ export const Products = () => {
               { title: 'Textile & Leather', desc: 'Chemistry covering wetting, antifoam, bleaching and scouring, speciality colours, flame retardants and optical brighteners.' },
               { title: 'Plastic & Polymer', desc: 'Performance chemicals, flame retardants, raw materials, masterbatch, pigment dispersions and performance colours.' },
               { title: 'Rare Earth Metal Extraction', desc: 'Solvent-based chemistry and phosphoric, phosphinic and phosphonic chemistry selected according to process requirements.' },
-              { title: 'Surface Treatment', desc: 'Inorganic salts and performance chemicals for surface treatment applications across automobile and electronics-related requirements.' }
+              { title: 'Surface Treatment', desc: 'Inorganic salts and performance chemicals for surface treatment applications across automotive and electronics-related requirements.' }
             ].map((ind, i) => (
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -274,9 +274,9 @@ export const Products = () => {
                 </div>
               ))}
             </div>
-            <button className="px-8 py-4 bg-primary text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors">
+            <Link to="/contact" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors">
               Request Product Information &rarr;
-            </button>
+            </Link>
           </div>
 
           {/* Custom Requirement */}
@@ -285,9 +285,9 @@ export const Products = () => {
             <p className="font-sans text-primary/70 mb-8 leading-relaxed">
               Your requirement may not fit a standard product listing. Share your application, specification, quantity, performance requirement, target market, or existing product reference. Our team can review the requirement and discuss suitable products or customized possibilities.
             </p>
-            <button className="px-8 py-4 bg-accent text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-primary transition-colors w-full md:w-auto">
+            <Link to="/contact" className="inline-block text-center px-8 py-4 bg-accent text-white rounded-full font-mono text-xs tracking-widest uppercase hover:bg-primary transition-colors w-full md:w-auto">
               Discuss Your Requirement &rarr;
-            </button>
+            </Link>
           </div>
           
         </div>
@@ -386,7 +386,15 @@ export const Products = () => {
             Whether you already know the product you need or only know the application you're trying to solve, start a conversation with Sagar.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <button className="w-full sm:w-auto px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white hover:text-primary transition-colors">
+            <button
+              type="button"
+              onClick={() => {
+                const search = document.getElementById('product-search');
+                search?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                search?.focus({ preventScroll: true });
+              }}
+              className="w-full sm:w-auto px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white hover:text-primary transition-colors"
+            >
               Find a Product
             </button>
             <Link to="/contact" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-white/20 transition-colors">

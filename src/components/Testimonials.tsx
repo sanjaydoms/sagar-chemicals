@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, Quote } from 'lucide-react';
 import clsx from 'clsx';
@@ -42,7 +42,7 @@ export const Testimonials = () => {
       image:
         'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1000&q=85',
       quote:
-        'Having local warehousing and technical support in Campinas gives us complete confidence in our raw material supply chain. Sagar delivers specialty flame retardants and plasticizers on schedule with full COA and regulatory compliance.',
+        'Having local warehousing and technical support in Campinas gives us complete confidence in our raw material supply chain. Sagar delivers speciality flame retardants and plasticizers on schedule with full COA and regulatory compliance.',
       author: 'Carlos Eduardo Silva',
       role: 'Director of Global Procurement, SulPolímeros',
       companyShort: 'SulPolímeros',

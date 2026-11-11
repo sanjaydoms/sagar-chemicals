@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, ArrowRight, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
@@ -230,7 +230,7 @@ export const Navbar = () => {
                             e.preventDefault();
                             return;
                           }
-                          if (!link.children) setMobileMenuOpen(false);
+                          setMobileMenuOpen(false);
                         }}
                         className={clsx(
                           'font-serif text-3xl transition-colors flex items-center gap-3 mb-4',

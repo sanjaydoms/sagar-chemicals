@@ -1,18 +1,21 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { motion, useInView } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { ChemicalBackground } from './ChemicalBackground';
 
 export const Resources = () => {
   const container = useRef<HTMLDivElement>(null);
   const isInView = useInView(container, { once: true, margin: "0px" });
+  const navigate = useNavigate();
 
+  // No downloadable files exist yet, so documents are requested via the contact page.
   const resources = [
-    { id: '01', title: 'PRODUCT CATALOGUE', action: 'DOWNLOAD' },
-    { id: '02', title: 'COMPANY PROFILE', action: 'DOWNLOAD' },
-    { id: '03', title: 'TECHNICAL DOCUMENTS', action: 'VIEW' },
-    { id: '04', title: 'CERTIFICATES', action: 'VIEW' },
-    { id: '05', title: 'FAQ', action: 'EXPLORE' },
+    { id: '01', title: 'PRODUCT CATALOGUE', action: 'REQUEST', href: '/contact' },
+    { id: '02', title: 'COMPANY PROFILE', action: 'REQUEST', href: '/contact' },
+    { id: '03', title: 'TECHNICAL DOCUMENTS', action: 'REQUEST', href: '/contact' },
+    { id: '04', title: 'CERTIFICATES', action: 'REQUEST', href: '/contact' },
+    { id: '05', title: 'FAQ', action: 'EXPLORE', href: '#faq' },
   ];
 
   return (
@@ -36,7 +39,13 @@ export const Resources = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: index * 0.1, ease: "easeOut" }}
-              href={`#${resource.title.toLowerCase().replace(/ /g, '-')}`}
+              href={resource.href}
+              onClick={(e) => {
+                if (resource.href.startsWith('/')) {
+                  e.preventDefault();
+                  navigate(resource.href);
+                }
+              }}
               className="group flex flex-col sm:flex-row sm:items-center justify-between py-6 sm:py-8 md:py-10 border-b border-primary/10 hover:border-primary/35 transition-colors"
             >
               <div className="flex items-center gap-6 sm:gap-12 mb-3 sm:mb-0">

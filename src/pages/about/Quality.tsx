@@ -1,5 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export const Quality = () => {
   return (
@@ -100,9 +100,9 @@ export const Quality = () => {
       {/* CTA */}
       <section className="py-24 bg-background border-t border-primary/10 text-center px-6">
         <h2 className="font-serif text-4xl text-primary mb-8">Looking for a specification-based chemical solution?</h2>
-        <a href="/contact" className="inline-flex items-center px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-primary transition-colors gap-3 group">
+        <Link to="/contact" className="inline-flex items-center px-8 py-4 bg-accent text-white rounded-full font-mono text-sm tracking-widest uppercase hover:bg-primary transition-colors gap-3 group">
           Talk to our technical team <span className="transform group-hover:translate-x-1 transition-transform">&rarr;</span>
-        </a>
+        </Link>
       </section>
     </div>
   );

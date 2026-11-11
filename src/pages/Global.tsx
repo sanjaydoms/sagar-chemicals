@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 export const Global = () => {
@@ -9,7 +8,7 @@ export const Global = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop" 
-            alt="Global Reach Hero" 
+            alt="Global reach" 
             className="w-full h-full object-cover opacity-30 mix-blend-overlay"
           />
         </div>

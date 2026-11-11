@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { FAQ } from '../components/FAQ';
 import { CTA } from '../components/CTA';
@@ -11,7 +10,7 @@ export const Industries = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2000&auto=format&fit=crop" 
-            alt="Industries Hero" 
+            alt="Industrial applications" 
             className="w-full h-full object-cover opacity-30 mix-blend-overlay"
           />
         </div>

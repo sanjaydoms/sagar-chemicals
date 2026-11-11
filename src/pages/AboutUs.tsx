@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Eye, Target, ArrowUpRight } from 'lucide-react';
 import clsx from 'clsx';
@@ -154,7 +154,7 @@ export const AboutUs = () => {
               </h2>
             </div>
             <p className="font-sans text-sm sm:text-base text-primary/75 max-w-md leading-relaxed">
-              Fifty years of chemical expertise anchored by a clear global vision and an unwavering mission to serve industrial partners worldwide.
+              Over fifty years of chemical expertise anchored by a clear global vision and an unwavering mission to serve industrial partners worldwide.
             </p>
           </div>
 
@@ -364,31 +364,31 @@ export const AboutUs = () => {
               {
                 name: 'Ravindra L. Sampat',
                 role: 'Founder & Director',
-                bio: 'A visionary leader who started the company and responsible to take SSCPL to new heights. He has completed his graduation in Commerce and with an enriching experience of 50+ years, he ensured SSCPL has established a strong position in speciality chemical market.',
+                bio: 'A visionary leader who founded the company and is responsible for taking SSCPL to new heights. A Commerce graduate with over 50 years of experience, he has built SSCPL\'s strong position in the speciality chemicals market.',
                 img: '/founder.jpg'
               },
               {
                 name: 'Hardik R. Sampat',
                 role: 'Managing Director',
-                bio: 'A chemical Engineer (B.E. Chemicals) with MBA in Marketing, he started his career with IOTL (Indian Oil Tanking Limited). He joined SSCPL in 2012 and with backing of his technical knowledge and experience of 2+ years, he introduced a new line of business into contract manufacturing and customized chemical solutions. He currently heads technical aspect of product development ensuring diversification of business.',
+                bio: 'A chemical engineer (B.E. Chemicals) with an MBA in Marketing, he started his career with IOTL (Indian Oil Tanking Limited). He joined SSCPL in 2012 and, with the backing of his technical knowledge and experience of 2+ years, he introduced a new line of business into contract manufacturing and customized chemical solutions. He currently heads the technical aspects of product development, ensuring diversification of the business.',
                 img: '/managing_director.jpg'
               },
               {
                 name: 'Jaydeep K. Panchal',
                 role: 'DGM',
-                bio: 'A chemical engineer (B.E. Chemicals) with diploma in French language (DELF A1), he started his career in 2011 with marketing of speciality chemicals. He joined SSCPL in 2018 and since then has been responsible for developing new business and market for SSCPL. He jointly works with the Director with planning and strategies to ensure business growth.',
+                bio: 'A chemical engineer (B.E. Chemicals) with a diploma in French (DELF A1), he started his career in 2011 in the marketing of speciality chemicals. He joined SSCPL in 2018 and has since been responsible for developing new business and markets for SSCPL. He works jointly with the Directors on planning and strategy to ensure business growth.',
                 img: '/jaydeep.jpg'
               },
               {
                 name: 'Mehul C. Dattani',
                 role: 'Head of Operations',
-                bio: 'Mehul holds a diploma in Export & Import Management and with 17+ years of experience in multiple profiles, he takes care of entire operations right from order management to delivery of products. He jointly works with the Management Team and responsible for logistics and documentation process.',
+                bio: 'Mehul holds a diploma in Export & Import Management and, with 17+ years of experience in multiple profiles, he takes care of the entire operations, right from order management to delivery of products. He works jointly with the Management Team and is responsible for the logistics and documentation process.',
                 img: '/mehul.jpg'
               },
               {
                 name: 'Brijesh V. Shah',
                 role: 'Director of International Business',
-                bio: 'Brijesh Shah is engineer with MBA in International Business Management and 20 years of experience of strong well-rounded track record in a competitive international market. He is responsible to ensure Sagar Speciality Chemicals Private Limited establishes a strong presence in international market.',
+                bio: 'Brijesh Shah is an engineer with an MBA in International Business Management and 20 years of experience, with a strong, well-rounded track record in competitive international markets. He is responsible for ensuring Sagar Speciality Chemicals Private Limited establishes a strong presence in international markets.',
                 img: '/brijesh.jpg'
               }
             ].map((leader, i) => (

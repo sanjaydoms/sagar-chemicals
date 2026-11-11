@@ -1,5 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export const Solutions = () => {
   return (
@@ -9,7 +9,7 @@ export const Solutions = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src="/images/laboratory_glassware.jpg"
-            alt="Solutions Hero" 
+            alt="Laboratory glassware" 
             className="w-full h-full object-cover opacity-30 mix-blend-overlay"
           />
         </div>
@@ -53,9 +53,9 @@ export const Solutions = () => {
                 <p className="font-sans text-base text-primary/70 leading-relaxed mb-8">
                   {item.desc}
                 </p>
-                <button className="px-8 py-3 bg-primary text-background font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors">
+                <Link to="/contact" className="inline-block px-8 py-3 bg-primary text-background font-mono text-xs tracking-widest uppercase hover:bg-accent transition-colors">
                   Learn More
-                </button>
+                </Link>
               </div>
               <div className="w-full md:w-1/2 aspect-square bg-primary/5 rounded-2xl border border-primary/10 relative overflow-hidden group">
                  <div className="absolute inset-0 bg-primary/10 group-hover:scale-105 transition-transform duration-700" />

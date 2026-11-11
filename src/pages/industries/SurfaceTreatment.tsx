@@ -1,4 +1,3 @@
-import React from 'react';
 import { IndustryLayout } from '../../components/IndustryLayout';
 
 export const SurfaceTreatment = () => {
@@ -15,7 +14,7 @@ export const SurfaceTreatment = () => {
         { name: 'Surface Preparation', desc: 'Chemical solutions supporting preparation before subsequent processing.' },
         { name: 'Performance Treatment', desc: 'Materials selected around defined surface-performance requirements.' }
       ]}
-      productCategories={['Inorganic Salts', 'Performance Chemicals', 'Surface Treatment Chemicals', 'Specialty Process Chemicals']}
+      productCategories={['Inorganic Salts', 'Performance Chemicals', 'Surface Treatment Chemicals', 'Speciality Process Chemicals']}
       technicalApproach={{
         title: 'Surface → Process → Chemistry',
         steps: ['SURFACE', 'REQUIRED FINISH', 'PROCESS CONDITIONS', 'CHEMICAL SELECTION', 'VALIDATION']

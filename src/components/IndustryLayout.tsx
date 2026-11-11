@@ -41,7 +41,7 @@ export const IndustryLayout: React.FC<IndustryLayoutProps> = ({
     <div className="pt-[110px] min-h-screen bg-background">
       
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center bg-primary overflow-hidden">
+      <section className="relative min-h-[60vh] py-20 flex items-center justify-center bg-primary overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src={heroImage} 

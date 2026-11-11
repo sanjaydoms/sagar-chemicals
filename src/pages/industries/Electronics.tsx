@@ -1,4 +1,3 @@
-import React from 'react';
 import { IndustryLayout } from '../../components/IndustryLayout';
 
 export const Electronics = () => {
@@ -15,14 +14,14 @@ export const Electronics = () => {
         { name: 'Precision Cleaning', desc: 'Chemistry designed around demanding cleaning requirements.' },
         { name: 'E-Waste Recycling', desc: 'Solvent solutions supporting recycling-related processes.' }
       ]}
-      productCategories={['Specialty solvents', 'Cleaning chemistry', 'Etching chemistry', 'Process chemicals', 'Recycling-related solvents']}
+      productCategories={['Speciality solvents', 'Cleaning chemistry', 'Etching chemistry', 'Process chemicals', 'Recycling-related solvents']}
       technicalApproach={{
         title: 'Controlled Chemistry. Defined Requirements.',
         steps: ['PROCESS', 'MATERIAL / SURFACE', 'CHEMICAL REQUIREMENT', 'TECHNICAL EVALUATION', 'PRODUCT']
       }}
       ctaTitle="Have a Precision-Chemistry Requirement?"
       ctaText="Let's discuss your process with our technical team."
-      relatedProducts={['Solvents', 'Specialty Process Chemicals']}
+      relatedProducts={['Solvents', 'Speciality Process Chemicals']}
     />
   );
 };

@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 import { ChemicalBackground } from './ChemicalBackground';
 

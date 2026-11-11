@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, Sparkles, ShieldCheck, Globe2, Wrench } from 'lucide-react';
 import { Link } from 'react-router-dom';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { IndustryLayout } from '../../components/IndustryLayout';
 
 export const Oil = () => {
@@ -16,16 +15,16 @@ export const Oil = () => {
         { name: 'Anti-Wear', desc: 'Performance additives designed around wear-control requirements.' },
         { name: 'Corrosion Protection', desc: 'Chemistry supporting protection of metal surfaces.' },
         { name: 'Antioxidants', desc: 'Materials supporting formulation stability against oxidation.' },
-        { name: 'Anti-Foam', desc: 'Solutions for controlling unwanted foam during processing and application.' }
+        { name: 'Antifoam', desc: 'Solutions for controlling unwanted foam during processing and application.' }
       ]}
-      productCategories={['Performance Additives', 'Surfactants', 'Anti-Foam', 'Corrosion Protection', 'Anti-Wear', 'Antioxidants']}
+      productCategories={['Performance Additives', 'Surfactants', 'Antifoam', 'Corrosion Protection', 'Anti-Wear', 'Antioxidants']}
       technicalApproach={{
         title: 'From Performance Requirement to Product',
         steps: ['APPLICATION', 'PERFORMANCE TARGET', 'PRODUCT SELECTION', 'FORMULATION / TRIAL', 'SUPPLY']
       }}
       ctaTitle="Looking for the Right Lubricant Additive?"
       ctaText="Share your formulation or performance requirement with our team."
-      relatedProducts={['Surfactants', 'Anti-Foam', 'Performance Additives', 'Corrosion Protection']}
+      relatedProducts={['Surfactants', 'Antifoam', 'Performance Additives', 'Corrosion Protection']}
     />
   );
 };

@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Upload, ArrowRight } from 'lucide-react';
+import { MapPin, Phone, Upload, ArrowRight } from 'lucide-react';
 
 export const Contact = () => {
   return (
@@ -218,7 +217,7 @@ export const Contact = () => {
                 </h3>
                 <p className="font-mono text-xs text-primary/50 tracking-widest uppercase mb-4">Correspondence Office</p>
                 <div className="font-sans text-primary/70 text-sm space-y-1 mb-4">
-                  <p>R Amélia Bueno, 173</p>
+                  <p>Rua Amélia Bueno, 173</p>
                   <p>Campinas — São Paulo</p>
                   <p>CEP 13076-050, Brazil</p>
                 </div>
@@ -238,7 +237,7 @@ export const Contact = () => {
                 <p className="font-mono text-xs text-primary/50 tracking-widest uppercase mb-4">Sagar Speciality Chemicals FZCO</p>
                 <div className="font-sans text-primary/70 text-sm space-y-1 mb-4">
                   <p>FZCO FZJOA1421WS26</p>
-                  <p>Jebel Ali Freezone Authority</p>
+                  <p>Jebel Ali Free Zone Authority</p>
                   <p>Dubai, UAE</p>
                 </div>
                 <div className="pt-4 border-t border-primary/5">
