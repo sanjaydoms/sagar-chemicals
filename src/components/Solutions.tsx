@@ -128,7 +128,7 @@ export const Solutions = () => {
                         isDark ? "text-sky-300" : "text-primary/70"
                       )}
                     >
-                      {solution.id} • {solution.tag}
+                      {solution.tag}
                     </span>
                   </div>
 

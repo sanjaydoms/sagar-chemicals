@@ -49,9 +49,6 @@ export const Resources = () => {
               className="group flex flex-col sm:flex-row sm:items-center justify-between py-6 sm:py-8 md:py-10 border-b border-primary/10 hover:border-primary/35 transition-colors"
             >
               <div className="flex items-center gap-6 sm:gap-12 mb-3 sm:mb-0">
-                <span className="font-mono text-xs tracking-[0.2em] text-accent font-semibold group-hover:text-primary transition-colors">
-                  {resource.id}
-                </span>
                 <span className="font-sans text-xl sm:text-2xl md:text-3xl font-medium tracking-wide text-primary group-hover:text-accent transition-colors">
                   {resource.title}
                 </span>

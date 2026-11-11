@@ -66,9 +66,6 @@ export const Sustainability = () => {
               transition={{ delay: i * 0.1 }}
               className="flex gap-6 items-start"
             >
-              <div className="font-mono text-4xl text-primary/10 font-bold mt-1">
-                0{i + 1}
-              </div>
               <div>
                 <h3 className="font-serif text-2xl text-primary mb-4">{principle.title}</h3>
                 <p className="font-sans text-primary/70 leading-relaxed text-lg">

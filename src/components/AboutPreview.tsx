@@ -102,7 +102,7 @@ export const AboutPreview = () => {
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
                 <div className="font-mono text-[11px] sm:text-xs tracking-[0.25em] text-primary/60 font-semibold mb-2 sm:mb-4 lg:mb-6 uppercase">
-                  {story.id} / ABOUT
+                  ABOUT
                 </div>
                 
                 <div className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-primary leading-none mb-2 sm:mb-3 tracking-tight">

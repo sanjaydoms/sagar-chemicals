@@ -18,67 +18,55 @@ export const Customization = () => {
   const steps = [
     {
       id: '01',
-      num: '1',
       phase: 'DISCOVERY',
       title: 'YOUR REQUIREMENT',
       desc: 'We start by analyzing your target application, operating environment, regulatory constraints, and performance benchmarks.',
       deliverable: 'Requirement Brief & Spec Sheet',
-      duration: 'Stage 01',
       icon: FileSearch,
       tinted: true
     },
     {
       id: '02',
-      num: '2',
       phase: 'CONSULTATION',
       title: 'TECHNICAL DISCUSSION',
       desc: 'Our application chemists and process specialists collaborate with your team to evaluate chemical compatibility and process parameters.',
       deliverable: 'Technical Feasibility Review',
-      duration: 'Stage 02',
       icon: MessagesSquare,
       tinted: false
     },
     {
       id: '03',
-      num: '3',
       phase: 'SCREENING',
       title: 'PRODUCT SELECTION',
       desc: 'We identify optimal molecules, intermediates, or performance additives from our portfolio matching your exact functional needs.',
       deliverable: 'Candidate Chemistry Shortlist',
-      duration: 'Stage 03',
       icon: FlaskConical,
       tinted: false
     },
     {
       id: '04',
-      num: '4',
       phase: 'FORMULATION',
       title: 'CUSTOMIZATION',
       desc: 'Tailor-made synthesis, grade adjustment, or custom blending to fine-tune purity, viscosity, pH, or thermal stability.',
       deliverable: 'Custom Lab Sample & Formulation',
-      duration: 'Stage 04',
       icon: Sliders,
       tinted: true
     },
     {
       id: '05',
-      num: '5',
       phase: 'QUALITY LAB',
       title: 'VALIDATION',
       desc: 'Rigorous analytical testing, pilot trials, and full documentation (COA, SDS, REACH compliance) to verify batch consistency.',
       deliverable: 'Validated COA & Trial Approval',
-      duration: 'Stage 05',
       icon: ShieldCheck,
       tinted: false
     },
     {
       id: '06',
-      num: '6',
       phase: 'LOGISTICS',
       title: 'SUPPLY',
       desc: 'Seamless scale-up to commercial volumes with reliable global dispatch across our hubs in India, UAE, and Brazil.',
       deliverable: 'Scheduled Global Delivery',
-      duration: 'Stage 06',
       icon: Truck,
       tinted: true
     }
@@ -112,12 +100,12 @@ export const Customization = () => {
             <div className="flex items-end gap-2.5 shrink-0 self-start md:self-end">
               <div className="w-24 sm:w-32 h-11 sm:h-14 bg-primary/5 border-t-2 border-primary/30 rounded-sm px-3 sm:px-3.5 py-2 sm:py-2.5 flex items-end">
                 <span className="font-sans text-xs font-semibold text-primary/80">
-                  Stage 01
+                  Requirement
                 </span>
               </div>
               <div className="w-24 sm:w-32 h-16 sm:h-24 bg-primary/15 border-t-4 border-primary rounded-sm px-3 sm:px-3.5 py-2 sm:py-2.5 flex items-end">
                 <span className="font-sans text-xs font-semibold text-primary">
-                  Stage 06
+                  Supply
                 </span>
               </div>
             </div>
@@ -171,7 +159,7 @@ export const Customization = () => {
                       )}
                     >
                       <span className="font-sans text-[11px] sm:text-xs font-medium tracking-wider [writing-mode:vertical-rl] rotate-180 whitespace-nowrap">
-                        {step.duration} • {step.phase}
+                        {step.phase}
                       </span>
                     </div>
 
@@ -191,7 +179,7 @@ export const Customization = () => {
                         </div>
 
                         <h3 className="font-serif text-lg sm:text-xl md:text-2xl text-primary font-semibold tracking-tight">
-                          {step.num} {step.title}
+                          {step.title}
                         </h3>
                       </div>
 

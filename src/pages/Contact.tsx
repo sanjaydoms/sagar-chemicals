@@ -52,7 +52,7 @@ export const Contact = () => {
           >
             <div className="mb-10">
               <span className="font-mono text-xs tracking-[0.2em] text-accent uppercase font-bold mb-4 block">
-                01 — Start a Conversation
+                Start a Conversation
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-primary mb-4">Tell Us About Your Requirement</h2>
               <p className="font-sans text-primary/70">Use the form to share your requirement with our team.</p>
@@ -160,7 +160,7 @@ export const Contact = () => {
           >
             <div className="mb-10">
               <span className="font-mono text-xs tracking-[0.2em] text-accent uppercase font-bold mb-4 block">
-                02 — Our Locations
+                Our Locations
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-primary mb-4">Connect With Sagar</h2>
               <p className="font-sans text-primary/70 leading-relaxed">

@@ -248,7 +248,7 @@ export const AboutUs = () => {
                                 isDark ? 'text-sky-300' : 'text-accent'
                               )}
                             >
-                              {card.id} • {card.tag}
+                              {card.tag}
                             </span>
                             <h3
                               className={clsx(
@@ -261,15 +261,6 @@ export const AboutUs = () => {
                           </div>
                         </div>
 
-                        {/* Large Watermark Number */}
-                        <span
-                          className={clsx(
-                            'font-serif text-4xl sm:text-5xl font-bold tracking-tighter select-none transition-colors duration-500',
-                            isDark ? 'text-white/15' : 'text-primary/15'
-                          )}
-                        >
-                          {card.id}
-                        </span>
                       </div>
 
                       {/* Divider Line */}

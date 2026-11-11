@@ -195,7 +195,6 @@ export const IndustryLayout: React.FC<IndustryLayoutProps> = ({
               { id: '04', title: 'SUPPLY', desc: 'Supply-chain support designed around customer requirements.' }
             ].map((item) => (
               <div key={item.id} className="p-8 border border-primary/10 rounded-3xl hover:border-accent/30 transition-colors">
-                <span className="font-mono text-3xl text-primary/10 font-bold mb-4 block">{item.id}</span>
                 <h3 className="font-mono text-sm tracking-widest uppercase text-accent font-bold mb-4">{item.title}</h3>
                 <p className="font-sans text-primary/70">{item.desc}</p>
               </div>
